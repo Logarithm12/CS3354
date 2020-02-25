@@ -1,13 +1,13 @@
 public class StringReverse {
     public static void main(String[] args) {
-        System.out.println("Testing dingus: " + oddEvenStrings("dingus"));
-        System.out.println("Testing 21: " + oddEvenStrings("21"));
-        System.out.println("Testing \"\": " + oddEvenStrings(""));
-        System.out.println("Testing llllllli: " + oddEvenStrings("llllllli"));
-        System.out.println("Testing 123456789: " + oddEvenStrings("123456789"));
-        System.out.println("Testing 0123456789: " + oddEvenStrings("0123456789"));
-        System.out.println("Testing \"Hello World \": " + oddEvenStrings("Hello World "));
-        System.out.println("Testing \"He ll oW or ld \": " + oddEvenStrings("He ll oW or ld "));
+        System.out.println("dingus: " + oddEvenStrings("dingus"));
+        System.out.println("21: " + oddEvenStrings("21"));
+        System.out.println("\"\": " + oddEvenStrings(""));
+        System.out.println("llllllli: " + oddEvenStrings("llllllli"));
+        System.out.println("123456789: " + oddEvenStrings("123456789"));
+        System.out.println("0123456789: " + oddEvenStrings("0123456789"));
+        System.out.println("\"Hello World \": " + oddEvenStrings("Hello World "));
+        System.out.println("\"He ll oW or ld \": " + oddEvenStrings("He ll oW or ld "));
     }
 
     public static String reverseString(String input) {
