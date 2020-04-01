@@ -1,0 +1,7 @@
+a = 1.0 b = 4.0 c = 5.0
+real part = -2.0 imaginary part = 1.0
+real part = -2.0 imaginary part = -1.0
+adding root1 and root2: real part = -4.0 imaginary part = 0.0
+negative b over a: -4.0
+multiplying root1 and root2: real part = 5.0 imaginary part = 0.0
+c over a: 5.0

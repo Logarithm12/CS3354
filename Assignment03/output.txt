@@ -1,0 +1,40 @@
+a = 1.0 b = 4.0 c = 5.0
+real part = -2.0 imaginary part = 1.0
+real part = -2.0 imaginary part = -1.0
+adding root1 and root2: real part = -4.0 imaginary part = 0.0
+negative b over a: -4.0
+multiplying root1 and root2: real part = 5.0 imaginary part = 0.0
+c over a: 5.0
+
+a = 1.0 b = 6.0 c = 8.0
+real part = -2.0 imaginary part = 0.0
+real part = -4.0 imaginary part = 0.0
+adding root1 and root2: real part = -6.0 imaginary part = 0.0
+negative b over a: -6.0
+multiplying root1 and root2: real part = 8.0 imaginary part = -0.0
+c over a: 8.0
+
+a = 5.0 b = 27.0 c = 45.0
+real part = -2.7 imaginary part = 1.307669683062202
+real part = -2.7 imaginary part = -1.307669683062202
+adding root1 and root2: real part = -5.4 imaginary part = 0.0
+negative b over a: -5.4
+multiplying root1 and root2: real part = 9.000000000000002 imaginary part = 0.0
+c over a: 9.0
+
+a = 6.0 b = 0.0 c = 2.0
+real part = -0.0 imaginary part = 0.5773502691896257
+real part = -0.0 imaginary part = -0.5773502691896257
+adding root1 and root2: real part = -0.0 imaginary part = 0.0
+negative b over a: -0.0
+multiplying root1 and root2: real part = 0.3333333333333333 imaginary part = 0.0
+c over a: 0.3333333333333333
+
+a = 5.0 b = 5.0 c = 5.0
+real part = -0.5 imaginary part = 0.8660254037844387
+real part = -0.5 imaginary part = -0.8660254037844387
+adding root1 and root2: real part = -1.0 imaginary part = 0.0
+negative b over a: -1.0
+multiplying root1 and root2: real part = 1.0 imaginary part = 0.0
+c over a: 1.0
+
