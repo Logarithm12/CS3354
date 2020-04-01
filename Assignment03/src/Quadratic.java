@@ -7,24 +7,20 @@ import java.io.BufferedReader;
 public class Quadratic {
     public static void main(String args[]) {
         String filePath = "input.txt";
-        String output= "";
-        String outputfilePath="output.txt";
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath)))
-        {
+        String output = "";
+        String outputfilePath = "output.txt";
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             QuadraticEquation qEq;
             String sCurrentLine;
-            while ((sCurrentLine = br.readLine()) != null)
-            {
+            while ((sCurrentLine = br.readLine()) != null) {
                 String[] vals = sCurrentLine.split(",");
                 qEq = new QuadraticEquation(Double.valueOf(vals[0]), Double.valueOf(vals[1]), Double.valueOf(vals[2]));
                 output += testQuadratic(qEq);
             }
-        }
-        catch (IOException e)
-        {
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        WriteToFile(output,outputfilePath);
+        WriteToFile(output, outputfilePath);
 
     }
 
@@ -33,10 +29,10 @@ public class Quadratic {
         String output = testQ.toString() + "\n" + roots[0].toString() + "\n" + roots[1].toString();
         Complex addTest = roots[0].add(roots[1]);
         Complex multiplyTest = roots[0].multiply(roots[1]);
-        double negbOvera = (-1)* (testQ.b / testQ.a);
-        double cOvera = testQ.c/testQ.a;
-        output += "\nadding root1 and root2: "+addTest +"\nnegative b over a: "+Double.toString(negbOvera);
-        output += "\nmultiplying root1 and root2: "+multiplyTest+"\nc over a: "+Double.toString(cOvera)+"\n\n";
+        double negbOvera = (-1) * (testQ.b / testQ.a);
+        double cOvera = testQ.c / testQ.a;
+        output += "\nadding root1 and root2: " + addTest + "\nnegative b over a: " + Double.toString(negbOvera);
+        output += "\nmultiplying root1 and root2: " + multiplyTest + "\nc over a: " + Double.toString(cOvera) + "\n\n";
         return output;
 
     }
