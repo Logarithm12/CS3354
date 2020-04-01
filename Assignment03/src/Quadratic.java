@@ -6,9 +6,9 @@ import java.io.BufferedReader;
 
 public class Quadratic {
     public static void main(String args[]) {
-        String filePath = "input.txt";
+        String filePath = "QuadraticInput.txt";
         String output = "";
-        String outputfilePath = "output.txt";
+        String outputfilePath = "QuadraticOutput.txt";
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             QuadraticEquation qEq;
             String sCurrentLine;
